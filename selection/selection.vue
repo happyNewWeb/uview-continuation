@@ -33,9 +33,12 @@ export default {
 	data() {
 		return {
 			optuser: '',
-			checkeds: [[], []],
+			checkeds: [],
 			optlist: '',
 		}
+	},
+	create(){
+       this.list.forEach(e=>this.checkeds.push([]))
 	},
 	methods: {
 		listAll(department, index) {
