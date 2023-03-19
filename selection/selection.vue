@@ -37,8 +37,8 @@ export default {
 			optlist: '',
 		}
 	},
-	create(){
-       this.list.forEach(e=>this.checkeds.push([]))
+	created() {
+		this.list.forEach(e => this.checkeds.push([]))
 	},
 	methods: {
 		listAll(department, index) {
