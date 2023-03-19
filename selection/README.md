@@ -18,4 +18,4 @@
 
     事件  @click    接受两个参数 1、选中的筛选对象 2、选中的username字符串
     示范：
-    <selection :list="list" :itemLeft="{paddingLeft:'0'}" @click="result"></selection>
+    <selection :list="list" :itemStyle="{paddingLeft:'0'}" @click="result"></selection>
