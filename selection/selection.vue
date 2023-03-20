@@ -20,7 +20,6 @@
 
 <script>
 export default {
-	name: "selection",
 	props: {
 		list: {
 			type: Array,
